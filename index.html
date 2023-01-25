@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script src="./assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <h1 class="title">Rock-Paper-Scissors Game</h1>
+    <div class="container">
+      <div class="score-container">
+        <p class="player-score">Player's Score: 0</p>
+        <p>|</p>
+        <p class="computer-score">Computer's Score: 0</p>
+      </div>
+      <div class="choices-btn-container">
+        <button class="rock-btn choices-btn" id="rock">Rock</button>
+        <button class="paper-btn choices-btn" id="paper">Paper</button>
+        <button class="scissors-btn choices-btn" id="scissors">Scissors</button>
+      </div>
+      <textarea name="output" id="output" cols="30" rows="6" disabled></textarea>
+      <p class="winner"></p>
+      <button class="btn-restart" onclick="restart();">Restart</button>
+      
+    </div>
+  </body>
+</html>
